@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+   
+    <ImageView 
+        android:id="@+id/verify_iv"
+        android:layout_width="100dip"
+        android:layout_height="30dip"/>
+    
+    <EditText 
+        android:id="@+id/account"
+        android:layout_width="200dip"
+        android:layout_marginTop="50dip"
+        android:layout_height="50dip"
+        android:textColor="#000"/>
+    
+    <EditText 
+        android:id="@+id/pwd"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_marginTop="50dip"
+        android:textColor="#000"/>
+    
+    <EditText 
+        android:id="@+id/code"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_marginTop="50dip"
+        android:textColor="#000"/>
+    
+    <Button 
+        android:id="@+id/submit"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:text="提交"/>
+
+</LinearLayout>
